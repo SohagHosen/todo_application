@@ -1,38 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&display=swap");
 .App {
+  width: 100%;
+  color: #ced4da;
+}
+.card-title{
+  font-family: "Akaya Kanadaka", cursive;
+}
+.card {
+  margin: auto;
+  margin-top: 100px;
+  background-color: #232738;
+}
+.btn {
+  background-color: #2e3347;
+}
+
+.form-control:valid {
+  background-color: #2e3347;
+  color: #ced4da;
+  font-family: "Akaya Kanadaka", cursive;
+}
+.card-title {
+  color: #ced4da;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.list-group-item {
+  color: #232738;
+  font-size: 22px;
+  margin: 0px;
+  padding: 3px;
+  font-family: "Akaya Kanadaka", cursive;
+}
+.delet-btn {
+  background: transparent;
+  float: right;
+  padding: 0px;
+  margin-top: 2px;
+}
+.bi {
+  transition: .5s;
+  color: #232738;
+}
+.bi:hover {
+  color: #ff1100 !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.list-group {
+  margin: 5px 0px;
 }
